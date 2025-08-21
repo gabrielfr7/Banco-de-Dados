@@ -1,13 +1,12 @@
--- create database dbAula030625;
+create database dbAula03
+use dbAula030625;
 
--- use dbAula030625;
+create table TbAluno(
 
--- create table TbAluno(
-
--- codAluno int not null,
--- matriculaAluno varchar(20) not null , 
--- nomeAluno varchar(225) not null, 
--- idadeAluno int,
+ codAluno int not null,
+ matriculaAluno varchar(20) not null , 
+ nomeAluno varchar(225) not null, 
+ idadeAluno int,
 -- sexoAluno char(1), 
 -- dataNascimentoAluno date not null,
 -- telefoneAluno varchar(15),
